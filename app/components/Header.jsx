@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header>
+    <header className="mb-5">
       <div className="flex justify-center">
         <Link href="/">
           <h1 className="text-5xl font-bold"> THE REAL LOGO</h1>
@@ -19,7 +19,7 @@ const Header = () => {
         <Link className="hover:text-blue-400" href="/about/team">
           Our Team
         </Link>
-        <Link className="hover:text-blue-400" href="/code/repo">
+        <Link className="hover:text-blue-400" href="/code/repos">
           Code
         </Link>
       </div>
